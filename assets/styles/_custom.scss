@@ -1,0 +1,689 @@
+html {
+  //font-family: sans-serif;
+  font-family: 'Laila', sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+   * Remove default margin.
+   */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+     ========================================================================== */
+/**
+   * Correct `block` display not defined for any HTML5 element in IE 8/9.
+   * Correct `block` display not defined for `details` or `summary` in IE 10/11
+   * and Firefox.
+   * Correct `block` display not defined for `main` in IE 11.
+   */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+   * 1. Correct `inline-block` display not defined in IE 8/9.
+   * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+   */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+   * Prevent modern browsers from displaying `audio` without controls.
+   * Remove excess height in iOS 5 devices.
+   */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+   * Address `[hidden]` styling not present in IE 8/9/10.
+   * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+   */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+     ========================================================================== */
+/**
+   * Remove the gray background color from active links in IE 10.
+   */
+a {
+  background-color: transparent;
+}
+
+/**
+   * Improve readability of focused elements when they are also in an
+   * active/hover state.
+   */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+   */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+   * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+   */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+   * Address styling not present in Safari and Chrome.
+   */
+dfn {
+  font-style: italic;
+}
+
+/**
+   * Address variable `h1` font-size and margin within `section` and `article`
+   * contexts in Firefox 4+, Safari, and Chrome.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+   * Address styling not present in IE 8/9.
+   */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+   * Address inconsistent and variable font size in all browsers.
+   */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove border when inside `a` element in IE 8/9/10.
+   */
+img {
+  border: 0;
+}
+
+/**
+   * Correct overflow not hidden in IE 9/10/11.
+   */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * Address margin not present in IE 8/9 and Safari.
+   */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+   * Address differences between Firefox and other browsers.
+   */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+   * Contain overflow in all browsers.
+   */
+pre {
+  overflow: auto;
+}
+
+/**
+   * Address odd `em`-unit font size rendering in all browsers.
+   */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  //font-family: "Lato", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Laila', sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #333;
+  background: #fefefe;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  //font-family: 'Lora', Arial, Helvetica, sans-serif;
+  font-family: 'Laila', sans-serif;
+  font-weight: 700;
+  //font-style: italic;
+  letter-spacing: 0;
+
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+}
+
+h5 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-family: 'Laila', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.75em;
+  margin-bottom: 1rem;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-wrap {
+  color: #fff;
+  position: fixed;
+  z-index: 99;
+}
+
+.divider {
+  height: 14px;
+  width: 100%;
+  margin: 20px 0 19px;
+  display: inline-block;
+}
+
+.k-nav {
+  //font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-family: 'Laila', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+  font-size: 14px;
+
+}
+
+#page-header {
+  color: #fff;
+  height: 22rem;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-color: #333;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  .center {
+    display: table;
+    height: 100%;
+  }
+
+  h1 {
+    //display: table-cell;
+    //vertical-align: middle;
+    //text-align: center;
+    position: relative;
+    font-size: 3.8rem;
+    z-index: 5;
+    //text-transform: uppercase;
+  }
+}
+
+.dim {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+  background-color: #1c0c0c;
+  opacity: 0.4;
+}
+
+
+.slider-home {
+  position: relative;
+}
+
+.logo-home {
+  width: 200px;
+  height: 200px;
+}
+
+//
+// --------   Textos ------------
+//
+.titles-section {
+  //font-family: 'Lato', serif;
+  font-family: 'Laila', sans-serif;
+  border-style: solid;
+  border-width: 1px 0;
+  display: inline-block;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h3 {
+  }
+}
+
+.black {
+  border-color: #333333;
+  color: #333333;
+}
+
+.white {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+//
+//    -------         -------
+//
+.cuadro-sup {
+  height: 15rem;
+}
+
+.btn-delete {
+  color: #bc003b;
+}
+
+.data-paginate {
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #9b9b9b;
+
+}
+
+.titulo-horarios {
+  font-size: 1.1rem;
+  color: #4b4b4b;
+
+}
+
+.btn-standard-ldt {
+  color: #ffffff !important;
+  border-width: 10px !important;
+  border-color: #dca47d;
+  border-radius: 0;
+  letter-spacing: 3px;
+  font-size: 15px;
+  //font-family: 'Lora', serif;
+  font-family: 'Laila', sans-serif;
+  text-transform: uppercase !important;
+  text-decoration: none;
+  background-color: #dca47d;
+  padding: 1.1em 2em !important;
+  display: inline-block;
+  transition: all 300ms ease 0ms;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-dark-ldt {
+  background-color: #01010f;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.three-pict {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.contact-component {
+  a {
+    text-decoration: underline solid lightskyblue;
+    color: lightskyblue;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline solid white;
+      color: white;
+    }
+  }
+}
+
+.book-banner {
+  margin-top: 140px;
+}
+
+.my-gallery {
+  text-align: center;
+  justify-content: space-around;
+}
+
+.home-galley-img {
+
+  img {
+    width: 20rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 40px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  }
+
+}
+
+.image-tour {
+  width: 500px;
+}
+
+//
+//---------- BUTTON  -------------
+//
+.btn-cf {
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #1867c0;
+  border-color: #1867c0;
+  padding: 1.375rem 1.75rem;
+  box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.8) !important;
+}
+
+/**
+ *
+ * 11. Mosaic element styles
+ *
+ */
+.mosaic-item {
+  position: relative;
+  margin-bottom: 30px;
+
+  &:hover {
+    .mosaic-item-overlay {
+      opacity: 1;
+    }
+  }
+}
+
+.mosaic-img {
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mosaic-info {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  padding: 10px 30px 30px 30px;
+
+  .mosaic-text {
+    //font-style: italic;
+    //font-family: 'Lora', serif;
+    font-family: 'Laila', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+
+    p {
+      &:last-of-type {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+
+  .mosaic-link {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 15px;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      height: 1px;
+      width: 100%;
+    }
+  }
+}
+
+div {
+  .mosaic-link {
+    display: inline;
+  }
+}
+
+.mosaic-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .7;
+  transition: opacity .4s;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 50%, rgb(17, 17, 17) 100%);
+  z-index: 1;
+}
+
+.mosaic-530 {
+  height: 530px;
+}
+
+.mosaic-300 {
+  height: 300px;
+}
+
+.apps {
+  background-color: rgba(45, 35, 27, 0.72);
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.apps h4{
+  font-size: 1.4rem;
+  font-family: "Laila", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+//
+//---------- @MEDIA  -------------
+//
+@media screen and (max-width: 600px) {
+
+  #page-header {
+    height: 12rem;
+
+    h1 {
+      font-size: 2rem;
+      //margin-top: 40px;
+    }
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  .book-banner {
+    margin-top: 104px;
+  }
+  .image-tour {
+    width: 100%;
+  }
+  .cuadro-sup {
+    height: 11rem;
+  }
+  .home-galley-img {
+
+    img {
+      width: 280px;
+      margin-left: 5px;
+      margin-right: 5px;
+      vertical-align: middle;
+      border-style: none;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    }
+
+  }
+  .title-banner {
+    font-size: 1rem;
+  }
+  .titles-section {
+    font-size: 24px;
+  }
+  .logo-home {
+    width: 200px;
+    height: 200px;
+  }
+  .mosaic-530 {
+    height: 200px;
+  }
+  .mosaic-300 {
+    height: 200px;
+  }
+  .apps h4{
+    font-size: 1rem;
+  }
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
