@@ -46,13 +46,9 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    { src: '~/plugins/gallery', mode: 'client' },
-    {
-      src: '~/node_modules/vue-flux',
-      ssr: false,
-    },
     '@/plugins/aos.client',
     { src: '~/plugins/parallax.js', ssr: false },
+    { src: '~/plugins/vue-awesome-swiper.js', ssr: false },
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -78,23 +74,32 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/axios',
     '@nuxtjs/sitemap',
-    [
-      'nuxt-mail',
-      {
-        message: {
-          to: 'info@ekselence.com',
-        },
-        smtp: {
-          host: 'smtp-relay.sendinblue.com',
-          port: 587,
-          auth: {
-            user: 'bkingc@ekselence.com',
-            pass: '1zO3C7a4dYqhpfxb',
-          },
-        },
-      },
-    ],
+    'nuxt-mail',
   ],
+
+  mail: {
+    message: {
+      to: 'info@ekselence.com',
+    },
+    smtp: {
+      host: 'smtp-relay.sendinblue.com',
+      port: 587,
+      auth: {
+        user: 'bkingc@ekselence.com',
+        pass: '1zO3C7a4dYqhpfxb',
+      },
+    },
+  },
+
+  axios: {
+    // proxy: true
+    baseURL: 'https://theraj.ekselence.com',
+    // baseURL: 'https://theraj.cl',
+    // baseURL: 'http://localhost:3000',
+    https: true,
+    // https: false,
+    progress: true,
+  },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {

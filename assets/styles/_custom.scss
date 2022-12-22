@@ -597,6 +597,23 @@ div {
   height: 300px;
 }
 
+.apps {
+  background-color: rgba(45, 35, 27, 0.72);
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.apps h4{
+  font-size: 1.4rem;
+  font-family: "Laila", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
 //
 //---------- @MEDIA  -------------
 //
@@ -650,6 +667,9 @@ div {
   }
   .mosaic-300 {
     height: 200px;
+  }
+  .apps h4{
+    font-size: 1rem;
   }
 }
 

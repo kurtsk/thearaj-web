@@ -13,6 +13,7 @@
           <v-icon>mdi-phone</v-icon>
           <h5 class="my-4">Teléfono</h5>
           <p>(+562) 2716 0077 <br /></p>
+          <p>(+562) 2716 1177 <br /></p>
         </v-card-text>
       </v-card>
     </v-col>
@@ -49,8 +50,8 @@
           <v-icon>mdi-av-timer</v-icon>
           <h5 class="my-4">Horarios</h5>
           <p>
-            Lun - Sab: 12:30 hrs - 22:00 hrs <br />
-            Dom: 12:30 hrs - 17:30 hrs
+            Lun - Sab: 12:30 hrs - 23:00 hrs <br />
+            Dom: 12:30 hrs - 17:00 hrs
           </p>
         </v-card-text>
       </v-card>
@@ -74,13 +75,21 @@ export default {
     }
   },
 
-  computed: {},
+  computed: {
+    //
+  },
 
-  created() {},
+  created() {
+    //
+  },
 
-  mounted() {},
+  mounted() {
+    //
+  },
 
-  methods: {},
+  methods: {
+    //
+  },
 }
 </script>
 

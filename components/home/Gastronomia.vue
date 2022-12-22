@@ -4,7 +4,16 @@
       <v-col cols="12" md="6" class="k-m-0 k-p-0">
         <v-row justify="center">
           <v-col cols="12" class="k-p-2">
-            <img :src="imageUrl" alt="the raj" data-aos="fade-down" />
+            <v-img :src="imageUrl" alt="the raj" data-aos="fade-down">
+              <template v-slot:placeholder>
+                <v-row class="fill-height ma-0" align="center" justify="center">
+                  <v-progress-circular
+                    indeterminate
+                    color="grey lighten-5"
+                  ></v-progress-circular>
+                </v-row>
+              </template>
+            </v-img>
           </v-col>
         </v-row>
       </v-col>
@@ -73,13 +82,21 @@ export default {
     }
   },
 
-  computed: {},
+  computed: {
+    //
+  },
 
-  created() {},
+  created() {
+    //
+  },
 
-  mounted() {},
+  mounted() {
+    //
+  },
 
-  methods: {},
+  methods: {
+    //
+  },
 }
 </script>
 

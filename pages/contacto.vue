@@ -22,9 +22,11 @@
         <v-col cols="12">
           <v-container>
             <div class="" data-aos="fade-up" data-aos-duration="1500">
-              <h3>¿Tiene alguna duda o sugerencia?</h3>
+              <h3>
+                Escribenos para cotizar tu evento o cualquier otra solicitud!
+              </h3>
             </div>
-            <div
+            <!--            <div
               class="k-px-3 k-mt-4"
               data-aos="fade-up"
               data-aos-delay="300"
@@ -33,10 +35,9 @@
               data-aos-anchor-placement="bottom-bottom"
             >
               <p class="text-justify">
-                Puede escribirnos por esta vía, le contactaremos a la brevedad
-                posible.
+                Escribenos para cotizar tu evento o cualquier otra solicitud!
               </p>
-            </div>
+            </div>-->
           </v-container>
         </v-col>
 
@@ -47,7 +48,7 @@
             :rules="rules"
             role="form"
             name="form"
-            @submit.prevent="send()"
+            @submit.prevent="submit()"
           >
             <v-container>
               <v-row>
@@ -118,6 +119,15 @@
                     :rules="[rules.required, rules.characters_valid]"
                     outlined
                   />
+                  <v-alert
+                    v-model="alert"
+                    :value="alert"
+                    type="success"
+                    dismissible
+                    transition="scale-transition"
+                  >
+                    El correo se ha enviado con éxito
+                  </v-alert>
                 </v-col>
 
                 <v-col cols="12" class="text-end">
@@ -142,6 +152,15 @@
                       <span class="bottom bottom-left button-border" />
                       <span class="right button-border" />
                     </button>
+                    <!--                    <v-btn
+                      :disabled="!valid"
+                      :loading="loading"
+                      @click="submit"
+                      @click.native="loader = 'loading'"
+                    >
+                      enviar
+                    </v-btn>-->
+                    <!--                    <v-btn @click="clear">limpiar</v-btn>-->
                   </div>
                 </v-col>
               </v-row>
@@ -162,7 +181,7 @@
 
               <v-card-actions>
                 <v-spacer />
-                <v-btn color="primary" text @click="dialog = false">
+                <v-btn color="primary" text @click.prevent="close">
                   Aceptar
                 </v-btn>
               </v-card-actions>
@@ -181,8 +200,8 @@
 </template>
 
 <script>
-// import emailjs from 'emailjs-com'
 import Ubicacion from '~/components/home/Ubicacion'
+const emailjs = require('emailjs-com')
 export default {
   name: 'Contacto',
 
@@ -196,6 +215,10 @@ export default {
     return {
       imageUrl: 'background-image: url(img/bg/the-raj-contacto.jpg)',
       dialog: false,
+      alert: false,
+      loader: null,
+      loading: false,
+      valid: true,
       form: {
         name: '',
         phone: '',
@@ -205,7 +228,7 @@ export default {
       rules: {
         required: (v) => !!v || 'Campo Requerido.',
         characters_valid: (v) =>
-          /^[a-zA-Z0-9ñÑáéíóú_ -]+$/.test(v) || 'Caracteres no validos..!!',
+          /^[a-zA-Z0-9ñÑáéíóú,.'"_ -]+$/.test(v) || 'Caracteres no validos..!!',
         characters_numeric: (v) =>
           /^[0-9+()_ -]+$/.test(v) || 'Solo caracteres numéricos..!!',
         email: (v) =>
@@ -218,84 +241,65 @@ export default {
 
   computed: {},
 
-  created() {},
+  watch: {
+    loader() {
+      const l = this.loader
+      this[l] = !this[l]
+      this.alert = true
+      this.dialog = true
+      setTimeout(() => (this[l] = false), 3000)
+
+      this.loader = null
+    },
+  },
+
+  created() {
+    emailjs.init('user_IMDL8QXddWl1GCNZCdZkh')
+  },
 
   mounted() {},
 
   methods: {
-    submitForm(formName) {
-      const formData = new FormData()
-      formData.append('phone', this.form.phone)
-      formData.append('message', this.form.message)
-      formData.append('name', this.form.name)
-      formData.append('email', this.form.email)
+    submit() {
+      const data = {
+        from_name: this.form.name,
+        from_phone: this.form.phone,
+        from_email: this.form.email,
+        message: this.form.message,
+      }
 
-      // const url = '/mail/send'
-      // console.log(url);
-
-      // axios
-      //   .post(url, formData)
-      //   .then((response) => {
-      //     // console.log('fino el envio');
-      //     this.dialog = true
-      //     this.reset()
-      //     // this.formBooking.sending = 0;
-      //   })
-      //   .catch((error) => {
-      //     // eslint-disable-next-line no-console
-      //     console.log(error.response)
-      //     this.modalError()
-      //   })
+      if (this.$refs.form.validate()) {
+        emailjs
+          .send('sendinblue', 'theraj_template', data)
+          .then((response) => {
+            // eslint-disable-next-line no-console
+            console.log(
+              'SUCCESS. status=%d, text=%s',
+              response.status,
+              response.text
+            )
+            this.dialog = true
+          })
+          .catch((err) => {
+            alert('Ocurrio un problema al enviar  el correo')
+            // eslint-disable-next-line no-console
+            console.log('FAILDED. error=', err)
+          })
+      }
     },
-    reset() {
+
+    clear() {
       this.$refs.form.reset()
     },
-    // sendEmail(e) {
-    //   try {
-    //     emailjs.sendForm(
-    //       'sendinblue',
-    //       'template_xCLbnSaX',
-    //       e.target,
-    //       'user_IMDL8QXddWl1GCNZCdZkh',
-    //       {
-    //         name: this.name,
-    //         email: this.email,
-    //         message: this.message,
-    //       }
-    //     )
-    //   } catch (error) {
-    //     // eslint-disable-next-line no-console
-    //     console.log({ error })
-    //   }
-    //   // Reset form field
-    //   this.name = ''
-    //   this.email = ''
-    //   this.message = ''
-    // },
-    async send() {
-      try {
-        // eslint-disable-next-line no-console
-        console.log('ENVIANDO MAIL')
-        await this.$mail.send({
-          from: this.form.email,
-          subject: 'Nuevo memsaje desde la web.',
-          text: `
-    	<div>I'm section one</div>
-    	<div>I'm section two</div>
-    	<div>${this.form.message}</div>
-	`,
-        })
-        // eslint-disable-next-line no-console
-        console.log('MAIL ENVIADO')
-        this.dialog = true
-        // Reset form field
-        this.form.name = ''
-        this.form.email = ''
-        this.form.message = ''
-      } catch (error) {
-        // eslint-disable-next-line no-console
-        console.log({ error })
-      }
+
+    close() {
+      // Reset form field
+      this.form.name = ''
+      this.form.phone = ''
+      this.form.email = ''
+      this.form.message = ''
+      this.dialog = false
+      this.$router.replace('/')
     },
   },
 }

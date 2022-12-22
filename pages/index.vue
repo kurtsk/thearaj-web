@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import HomeSlider from '~/components/home/HomeSlider2'
+import HomeSlider from '~/components/home/HomeSlider'
 import Sinopsis from '~/components/home/Sinopsis'
 import MenuImages from '~/components/home/MenuImages'
 import Gastronomia from '~/components/home/Gastronomia'

@@ -117,7 +117,7 @@
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              Prensa
+              Sociales
             </div>
           </div>
           <div
@@ -173,15 +173,15 @@ export default {
 
   data: () => ({
     image01: 'background-image: url(img/menu-img/01.jpg)',
-    image01Link: '#',
+    image01Link: 'https://eventos.therajprovidencia.cl',
     image02: 'background-image: url(img/menu-img/02.jpg)',
-    image02Link: '#',
+    image02Link: 'https://eventos.therajprovidencia.cl',
     image03: 'background-image: url(img/menu-img/03.jpg)',
     image03Link: '/reservas',
     image04: 'background-image: url(img/menu-img/04.jpg)',
-    image04Link: 'https://web.bistroqr.cl/the-raj/',
+    image04Link: 'https://qr.bistrosuite.io/the-raj',
     image05: 'background-image: url(img/menu-img/05.jpg)',
-    image05Link: '#',
+    image05Link: '/sociales',
     image06: 'background-image: url(img/menu-img/06.jpg)',
     image06Link: '/contacto',
     imageList: [],
@@ -190,8 +190,7 @@ export default {
   computed: {},
 
   created() {
-    // eslint-disable-next-line
-    console.log('2 - created')
+    //
   },
 
   mounted() {

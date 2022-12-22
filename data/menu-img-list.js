@@ -2,7 +2,7 @@ export default [
   {
     src_01: './img/menu-img/01.jpg',
     title_01: 'Eventos',
-    link: '#',
+    link: '/contacto',
     alt_01: 'The Raj - Eventos',
   },
   {

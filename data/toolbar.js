@@ -15,7 +15,7 @@ export default [
     id: 3,
     name: 'Carta',
     icon: 'mdi-book-open-variant',
-    url: 'https://web.bistroqr.cl/the-raj/',
+    url: 'https://qr.bistrosuite.io/the-raj',
   },
   /* {
     id: 4,

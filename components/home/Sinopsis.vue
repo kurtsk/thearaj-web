@@ -56,19 +56,17 @@ export default {
   props: [],
 
   data: () => ({
-    img: 'img/home/the-raj-historia.jpg',
+    img: 'img/home/the-raj-historia-2.jpg',
   }),
 
   computed: {},
 
   created() {
-    // eslint-disable-next-line
-    console.log('2 - created')
+    //
   },
 
   mounted() {
-    // eslint-disable-next-line
-    console.log('4 - mounted')
+    //
   },
 
   methods: {},

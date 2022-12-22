@@ -61,7 +61,7 @@ export default {
       // # =============================================
       // # ----- MENU PDF LINK ---->
       // # =============================================
-      appUrlMenu1: 'https://web.bistroqr.cl/the-raj/',
+      appUrlMenu1: 'https://qr.bistrosuite.io/the-raj',
       appUrlMenu2: '/pdf/the-raj-menu-english.pdf',
       appUrlMenu3: null,
 

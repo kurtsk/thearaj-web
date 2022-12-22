@@ -66,13 +66,11 @@ export default {
   computed: {},
 
   created() {
-    // eslint-disable-next-line
-    console.log('2 - created')
+    //
   },
 
   mounted() {
-    // eslint-disable-next-line
-    console.log('4 - mounted')
+    //
   },
 
   methods: {},
