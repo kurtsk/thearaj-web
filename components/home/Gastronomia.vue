@@ -46,10 +46,7 @@
           <a
             :href="appUrlMenu1"
             target="_blank"
-            class="
-              btn btn-md btn-border-animate btn-dark btn-font-2
-              slider-text-third
-            "
+            class="btn btn-md btn-border-animate btn-dark btn-font-2 slider-text-third"
           >
             <span class="btn-text">Ver Menú</span>
             <span class="top button-border"></span>

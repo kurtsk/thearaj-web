@@ -19,10 +19,7 @@
               <a
                 href="https://apps.apple.com/us/app/the-raj/id1599973018"
                 target="_blank"
-                class="
-                  btn btn-md btn-border-animate btn-light btn-font-1
-                  slider-text-third
-                "
+                class="btn btn-md btn-border-animate btn-light btn-font-1 slider-text-third"
                 data-aos="fade-up"
                 data-aos-easing="ease-out-cubic"
                 data-aos-anchor-placement="bottom-bottom"
@@ -41,10 +38,7 @@
               <a
                 href="https://play.google.com/store/apps/details?id=com.ekselence.theraj"
                 target="_blank"
-                class="
-                  btn btn-md btn-border-animate btn-light btn-font-1
-                  slider-text-third
-                "
+                class="btn btn-md btn-border-animate btn-light btn-font-1 slider-text-third"
                 data-aos="fade-up"
                 data-aos-easing="ease-out-cubic"
                 data-aos-anchor-placement="bottom-bottom"
@@ -70,10 +64,7 @@
           <a
             href="https://qr.bistrosuite.io/the-raj"
             target="_blank"
-            class="
-              btn btn-md btn-border-animate btn-light btn-font-1
-              slider-text-third
-            "
+            class="btn btn-md btn-border-animate btn-light btn-font-1 slider-text-third"
             data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
             data-aos-anchor-placement="bottom-bottom"

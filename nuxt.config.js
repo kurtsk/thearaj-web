@@ -48,7 +48,7 @@ export default {
   plugins: [
     '@/plugins/aos.client',
     { src: '~/plugins/parallax.js', ssr: false },
-    { src: '~/plugins/vue-awesome-swiper.js', ssr: false },
+    // { src: '~/plugins/vue-awesome-swiper.js', ssr: false }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)

@@ -139,10 +139,7 @@
                   >
                     <button
                       type="submit"
-                      class="
-                        btn btn-md btn-border-animate btn-dark btn-font-2
-                        slider-text-third
-                      "
+                      class="btn btn-md btn-border-animate btn-dark btn-font-2 slider-text-third"
                     >
                       ENVIAR
                       <span class="top button-border" />

@@ -29,12 +29,7 @@
       </div>
 
       <div
-        class="
-          home-contact-info
-          show-for-large
-          home-top home-right
-          k-text-white
-        "
+        class="home-contact-info show-for-large home-top home-right k-text-white"
         data-aos="fade-left"
         data-aos-easing="ease-out-cubic"
         data-aos-anchor-placement="bottom-bottom"
@@ -81,10 +76,7 @@
               <a
                 :href="appUrlBook1"
                 target="_blank"
-                class="
-                  btn btn-md btn-border-animate btn-light btn-font-1
-                  slider-text-third
-                "
+                class="btn btn-md btn-border-animate btn-light btn-font-1 slider-text-third"
                 data-aos="fade-up"
                 data-aos-easing="ease-out-cubic"
                 data-aos-anchor-placement="bottom-bottom"
@@ -103,10 +95,7 @@
               <a
                 :href="appUrlMenu1"
                 target="_blank"
-                class="
-                  btn btn-md btn-border-animate btn-light btn-font-1
-                  slider-text-third
-                "
+                class="btn btn-md btn-border-animate btn-light btn-font-1 slider-text-third"
                 data-aos="fade-up"
                 data-aos-easing="ease-out-cubic"
                 data-aos-anchor-placement="bottom-bottom"
@@ -125,10 +114,7 @@
               <a
                 :href="appDelivery"
                 target="_blank"
-                class="
-                  btn btn-md btn-border-animate btn-light btn-font-1
-                  slider-text-third
-                "
+                class="btn btn-md btn-border-animate btn-light btn-font-1 slider-text-third"
                 data-aos="fade-up"
                 data-aos-easing="ease-out-cubic"
                 data-aos-anchor-placement="bottom-bottom"
@@ -166,8 +152,8 @@
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
-import 'swiper/swiper.min.css'
+// import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
+// import 'swiper/swiper.min.css'
 import DataMixin from '~/mixins/data_mixin'
 import settings from '~/data/settings'
 import sliders from '~/data/sliders'
@@ -176,8 +162,8 @@ import redes from '~/data/redes'
 export default {
   name: 'HomeSlider',
   components: {
-    Swiper,
-    SwiperSlide,
+    // Swiper,
+    // SwiperSlide,
   },
   mixins: [DataMixin],
   data: () => ({

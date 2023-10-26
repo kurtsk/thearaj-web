@@ -1,6 +1,6 @@
 <template>
   <div>
-    <home-slider class="k-elevation-light-4"></home-slider>
+    <banner class="k-elevation-light-4"></banner>
     <section class="k-py-6 k-py-md-10 text-center k-border-bottom">
       <sinopsis></sinopsis>
     </section>
@@ -23,7 +23,8 @@
 </template>
 
 <script>
-import HomeSlider from '~/components/home/HomeSlider'
+// import HomeSlider from '~/components/home/HomeSlider'
+import Banner from '~/components/home/Banner.vue'
 import Sinopsis from '~/components/home/Sinopsis'
 import MenuImages from '~/components/home/MenuImages'
 import Gastronomia from '~/components/home/Gastronomia'
@@ -32,7 +33,8 @@ import Ubicacion from '~/components/home/Ubicacion'
 export default {
   name: 'Home',
   components: {
-    HomeSlider,
+    // HomeSlider,
+    Banner,
     Sinopsis,
     MenuImages,
     Gastronomia,
