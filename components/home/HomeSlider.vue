@@ -73,8 +73,8 @@
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="1500"
           >
-            El verdadero sabor <br />
-            de la india en Chile
+            Sabores del Norte <br />
+            y Sur de la India en Chile
           </p>
           <v-row>
             <v-col>
