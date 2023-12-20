@@ -41,5 +41,10 @@ export default {
     Reservas,
     Ubicacion,
   },
+  head() {
+    return {
+      title: 'Home',
+    }
+  },
 }
 </script>

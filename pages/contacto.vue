@@ -299,6 +299,11 @@ export default {
       this.$router.replace('/')
     },
   },
+  head() {
+    return {
+      title: 'Contacto',
+    }
+  },
 }
 </script>
 

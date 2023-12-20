@@ -9,20 +9,20 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - ' + process.env.APP_NAME,
-    title: process.env.APP_NAME || '',
+    titleTemplate: '%s - The Raj',
+    title: process.env.APP_NAME || 'The Raj',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.APP_META_DESCRIPTION || '',
+        content: process.env.APP_META_DESCRIPTION || 'The Raj Indian Restaurant promises to offer quality food, at best price with excellent service.',
       },
       {
         hid: 'keywords',
         name: 'keywords',
-        content: process.env.APP_META_KEYS || '',
+        content: process.env.APP_META_KEYS || 'Restaurante Hindú, creamos variedad de auténtica comida del Norte y Sur de la India, Deleitamos su paladar con nuestras emocionantes recetas, comida, cocteles, restaurant, postres, excellent service, best price, quality food, gourmet, experience, satisfaction',
       },
       {
         hid: 'author',
@@ -93,7 +93,7 @@ export default {
 
   axios: {
     // proxy: true
-    baseURL: 'https://theraj.ekselence.com',
+    baseURL: 'https://therajrestaurant.cl',
     // baseURL: 'https://theraj.cl',
     // baseURL: 'http://localhost:3000',
     https: true,
@@ -121,7 +121,7 @@ export default {
   },
 
   sitemap: {
-    hostname: process.env.APP_URL,
+    hostname: 'https://therajrestaurant.cl',
     gzip: true,
     defaults: {
       changefreq: 'daily',

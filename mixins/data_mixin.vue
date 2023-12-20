@@ -33,7 +33,7 @@ export default {
       appMetaDescription:
         'The Raj Indian Restaurant promises to offer quality food, at best price with excellent service.',
       appMetaKeys:
-        'comida, cocteles, restaurant, postres, excellent service, best price, quality food, gourmet, experience, satisfaction',
+        'Restaurante Hindú, creamos variedad de auténtica comida del Norte y Sur de la India, Deleitamos su paladar con nuestras emocionantes recetas, comida, cocteles, restaurant, postres, excellent service, best price, quality food, gourmet, experience, satisfaction',
       appMetaAutor: 'Kurts Kisis G. - Ekselence SPA',
 
       // # =============================================

@@ -12,10 +12,10 @@
           </ol>
           <p>
             El presente documento tiene como finalidad regular el acceso y uso
-            al sitio&nbsp;theraj.cl y APP mobil Tha Raj por parte de todos los
+            al sitio&nbsp;theraj.cl y APP mobil The Raj por parte de todos los
             clientes y/o consumidores. Todas las interacciones e ingresos de
             datos o información que se efectúen a través del
-            sitio&nbsp;theraj.cl y APP mobil Tha Raj estarán sujetas a los
+            sitio&nbsp;theraj.cl y APP mobil The Raj estarán sujetas a los
             presentes Términos y Condiciones, así como a las leyes chilenas
             vigentes, particularmente a la ley N° 19.496 sobre Protección de los
             Derechos de los Consumidores y Ley N° 19.628 sobre Protección de la
@@ -26,16 +26,16 @@
             por los clientes y/o consumidores al momento de realizar alguna
             interacción y/o ingreso de datos o información, en relación con
             cualquiera de los productos y/o servicios ofrecidos por SOC
-            RISTORANTE Tha Raj LIMITADA (en adelante ¨Tha Raj” o “theraj.cl”),
+            RISTORANTE The Raj LIMITADA (en adelante ¨The Raj” o “theraj.cl”),
             Rut 81.300.500- K, domiciliada en SIDORA GOYENECHEA 2908 293-21,LAS
             CONDES, ciudad de Santiago, Chile.
           </p>
           <p>&nbsp;</p>
           <p>
-            Toda la información que Tha Raj recabe de los clientes y/o
+            Toda la información que The Raj recabe de los clientes y/o
             consumidores será utilizada para otorgarles una mejor experiencia de
             navegación en su sitio web y entregarles de mejor manera los
-            productos y/o servicios ofrecidos por Tha Raj.
+            productos y/o servicios ofrecidos por The Raj.
           </p>
           <p>
             Los Términos y Condiciones contenidos en este documento se
@@ -48,35 +48,35 @@
             <li><strong> COMUNICACIONES ELECTRÓNICAS Y DATOS</strong></li>
           </ol>
           <p>
-            Tha Raj registrará, utilizará y protegerá toda la información o
+            The Raj registrará, utilizará y protegerá toda la información o
             datos que sean entregados por los clientes y/o consumidores, de
             conformidad con lo dispuesto por la legislación actualmente vigente
             sobre protección de datos y estos Términos y Condiciones. THE RAJ
             los utilizará primeramente para comunicarse con sus clientes, para
             así facilitar las interacciones, solicitudes, y eventuales
             transacciones que se puedan relacionar con la funcionalidad del
-            sitio theraj.cl y APP mobil Tha Raj. Además, dicha información o
+            sitio theraj.cl y APP mobil The Raj. Además, dicha información o
             datos recabados serán utilizados para lograr una mejor gestión y
-            administración del sitio theraj.cl y APP mobil Tha Raj, para así
+            administración del sitio theraj.cl y APP mobil The Raj, para así
             poder prestar, ampliar y mejorar los servicios que se ofrecen a
-            través del sitio web ya citado y APP mobil Tha Raj, para adecuarlos
+            través del sitio web ya citado y APP mobil The Raj, para adecuarlos
             a las preferencias y gustos de los clientes y/o consumidores, y para
             actualizar la información sobre servicios y/o productos ofrecidos
-            por Tha Raj.
+            por The Raj.
           </p>
           <p>
-            Por otra parte, Tha Raj podrá utilizar la dirección de correo
+            Por otra parte, The Raj podrá utilizar la dirección de correo
             electrónico y número de teléfono que haya remitido el cliente y/o
             consumidor a través del formulario de contacto contenido en el sitio
-            theraj.cl y APP mobil Tha Raj, para enviar información, mensajes o
+            theraj.cl y APP mobil The Raj, para enviar información, mensajes o
             comunicaciones promocionales o publicitarias, mediante el envío de
             correos electrónicos y/o llamadas telefónicas, sobre productos,
-            servicios, ofertas y noticias de Tha Raj, que esta última pueda
+            servicios, ofertas y noticias de The Raj, que esta última pueda
             considerar de interés de sus clientes.
           </p>
           <p>
             Con el fin de atender el caso particular de cada uno de los clientes
-            y/o consumidores de forma eficiente, Tha Raj podrá compartir su
+            y/o consumidores de forma eficiente, The Raj podrá compartir su
             información o datos con sus ejecutivos, para una mejor comprensión
             de su solicitud o requerimiento específico.
           </p>
@@ -87,9 +87,9 @@
           </p>
           <p>
             Toda información, mensaje o comunicación promocional o publicitaria
-            enviada por Tha Raj, mediante correo electrónico dirigido a los
+            enviada por The Raj, mediante correo electrónico dirigido a los
             clientes y/o consumidores, indicará el asunto a que se refiere, la
-            identidad de Tha Raj como remitente y, además, un link para que el
+            identidad de The Raj como remitente y, además, un link para que el
             destinatario, si lo desea, pueda solicitar la suspensión de esos
             envíos, e imprimir un comprobante de la solicitud. De esta forma
             cesarán los mensajes a toda persona que lo haya solicitado.
@@ -99,26 +99,26 @@
             <li><strong> CONSENTIMIENTO</strong></li>
           </ol>
           <p>
-            Cada vez que un cliente y/o consumidor envíe datos personales a LE
-            DUE TORRI, deberá dar su consentimiento expreso e inequívoco
-            haciendo “click” en la casilla que aparece en la parte inferior de
-            cada formulario donde se recaban sus datos. En caso de que el
-            cliente y/o consumidor envíe información o datos a través del correo
-            electrónico de contacto de Tha Raj info@theraj.cl, estará aceptando
-            expresamente lo establecido en estos Términos y Condiciones, y
-            autoriza a THE RAJ a recabar sus datos para la finalidad o petición
-            que nos haya realizado.
+            Cada vez que un cliente y/o consumidor envíe datos personales a THE
+            RAJ, deberá dar su consentimiento expreso e inequívoco haciendo
+            “click” en la casilla que aparece en la parte inferior de cada
+            formulario donde se recaban sus datos. En caso de que el cliente y/o
+            consumidor envíe información o datos a través del correo electrónico
+            de contacto de The Raj info@theraj.cl, estará aceptando expresamente
+            lo establecido en estos Términos y Condiciones, y autoriza a THE RAJ
+            a recabar sus datos para la finalidad o petición que nos haya
+            realizado.
           </p>
           <p>&nbsp;</p>
           <p>
             El cliente y/o consumidor garantiza que los datos personales
-            entregados a Tha Raj son veraces, y se hace responsable de comunicar
-            a esta última cualquier modificación de los mismos. LE DUE TORRI no
-            será responsable por la no recepción de correos electrónicos por
-            parte del cliente y/o consumidor, en los casos en que existiera
-            algún error en la indicación del nombre y/o correo electrónico que
-            indique en el sitio theraj.cl, o por cualquier causa o motivo
-            atribuible al cliente y/o consumidor.
+            entregados a The Raj son veraces, y se hace responsable de comunicar
+            a esta última cualquier modificación de los mismos. THE RAJ no será
+            responsable por la no recepción de correos electrónicos por parte
+            del cliente y/o consumidor, en los casos en que existiera algún
+            error en la indicación del nombre y/o correo electrónico que indique
+            en el sitio theraj.cl, o por cualquier causa o motivo atribuible al
+            cliente y/o consumidor.
           </p>
           <p>&nbsp;</p>
           <ol start="4">
@@ -126,7 +126,7 @@
           </ol>
           <p>
             Los clientes y/o consumidores que entreguen información o datos a
-            Tha Raj tendrán los siguientes derechos:
+            The Raj tendrán los siguientes derechos:
           </p>
           <p>&nbsp;</p>
           <p>
@@ -139,7 +139,7 @@
           <p>&nbsp;</p>
           <p>
             Con la finalidad de proteger la privacidad y seguridad de los
-            clientes y/o consumidores, Tha Raj tomará las medidas razonables que
+            clientes y/o consumidores, The Raj tomará las medidas razonables que
             estime necesarias para comprobar su identidad antes de darle acceso
             a sus propios datos o permitir que los corrija.
           </p>
@@ -148,7 +148,7 @@
             <li><strong> POLÍTICAS DE SEGURIDAD</strong></li>
           </ol>
           <p>
-            Tha Raj adoptará las medidas necesarias y prudentes para resguardar
+            The Raj adoptará las medidas necesarias y prudentes para resguardar
             la seguridad de los datos de los clientes y/o consumidores, que
             hayan sido ingresados en el sitio theraj.cl, y cuya finalidad fue la
             de utilizar los servicios de éste. En caso de detectarse cambios en
@@ -160,7 +160,7 @@
           </p>
           <p>
             En la recolección y en el tratamiento de los datos de carácter
-            personal, Tha Raj se compromete a proteger la información que sea
+            personal, The Raj se compromete a proteger la información que sea
             recabada de acuerdo a lo expresado en estos Términos y Condiciones,
             y adoptará las medidas de seguridad adecuadas para evitar la
             pérdida, el acceso no autorizado o la manipulación de los mismos.
@@ -177,12 +177,12 @@
           </ol>
           <p>
             Los precios de los productos disponibles en el sitio theraj.cl y APP
-            mobil Tha Raj, mientras aparezcan en él, solo tendrán vigencia y
+            mobil The Raj, mientras aparezcan en él, solo tendrán vigencia y
             aplicación en éste y no serán necesariamente aplicables a otros
-            canales de venta utilizados por Tha Raj, tales como tiendas físicas,
-            catálogos u otros. LE DUE TORRI podrá modificar en cualquier momento
-            la información contenida en este sitio, incluyendo las relacionadas
-            con mercaderías, servicios, precios, existencias y condiciones.
+            canales de venta utilizados por The Raj, tales como tiendas físicas,
+            catálogos u otros. THE RAJ podrá modificar en cualquier momento la
+            información contenida en este sitio, incluyendo las relacionadas con
+            mercaderías, servicios, precios, existencias y condiciones.
           </p>
           <p>&nbsp;</p>
           <ol start="7">
@@ -193,7 +193,7 @@
             necesariamente las mismas que ofrezcan otros canales de venta de Tha
             Raj. Todas las ofertas y promociones contenidas en el sitio ya
             mencionado, permanecerán vigentes mientras exista disponibilidad de
-            stock o no sean modificadas por la Tha Raj e informadas en este
+            stock o no sean modificadas por la The Raj e informadas en este
             sitio.
           </p>
           <p>&nbsp;</p>
@@ -204,31 +204,31 @@
             Todos los contenidos incluidos en este sitio, como textos, material
             gráfico, logotipos, íconos de botones, códigos fuente, imágenes,
             audio clips, descargas digitales y compilaciones de datos, son
-            propiedad de Tha Raj, o de sus proveedores de contenidos, y están
+            propiedad de The Raj, o de sus proveedores de contenidos, y están
             protegidos por las leyes chilenas e internacionales sobre propiedad
             intelectual. Los materiales gráficos, logotipos, encabezados de
             páginas, frases publicitarias, íconos de botones, textos escritos y
             nombres de servicios incluidos en este sitio son marcas comerciales,
-            creaciones o imágenes comerciales de propiedad de Tha Raj en Chile y
+            creaciones o imágenes comerciales de propiedad de The Raj en Chile y
             en otros países. Dichas marcas, creaciones e imágenes comerciales no
             se pueden usar en relación a ningún producto o servicio que pueda
             causar confusión entre los clientes y en ninguna forma que
             desprestigie o desacredite a THE RAJ. Las demás marcas comerciales
-            que no sean de propiedad de Tha Raj y que aparezcan en este sitio
+            que no sean de propiedad de The Raj y que aparezcan en este sitio
             pertenecen a sus respectivos dueños.
           </p>
           <p>
             Todos los derechos no expresamente otorgados en estos Términos y
-            Condiciones son reservados por Tha Raj o sus cesionarios,
+            Condiciones son reservados por The Raj o sus cesionarios,
             proveedores, editores, titulares de derechos u otros proveedores de
             contenidos. Ningún producto, imagen o sonido puede ser reproducido,
             duplicado, copiado, vendido, revendido, visitado o explotado para
             ningún fin, en todo o en parte, sin el consentimiento escrito previo
-            de Tha Raj. No se puede enmarcar o utilizar técnicas de enmarcación
+            de The Raj. No se puede enmarcar o utilizar técnicas de enmarcación
             para encerrar alguna marca comercial, logotipo u otra información
             registrada o patentada (incluyendo imágenes, texto, disposición de
-            páginas, o formulario) de Tha Raj, sin el consentimiento previo y
-            por escrito de Tha Raj. Tampoco se puede usar etiquetas ni ningún
+            páginas, o formulario) de The Raj, sin el consentimiento previo y
+            por escrito de The Raj. Tampoco se puede usar etiquetas ni ningún
             otro “texto oculto” que use el nombre o marcas comerciales de THE
             RAJ, sin autorización escrita previa y por escrito de aquella. Se
             prohíbe hacer un uso indebido de este sitio o de las marcas,
@@ -236,7 +236,7 @@
             excepciones expresamente señaladas en la ley.
           </p>
           <p>
-            Tha Raj respeta la propiedad intelectual de otras personas jurídicas
+            The Raj respeta la propiedad intelectual de otras personas jurídicas
             o naturales. Si se cree que un trabajo ha sido copiado en forma tal
             que constituye una violación del derecho de propiedad intelectual,
             contactarse con nosotros a&nbsp;info@theraj.cl
@@ -252,7 +252,7 @@
           </p>
           <p>&nbsp;</p>
           <p>
-            Tha Raj no será responsable, con respecto al uso del sitio
+            The Raj no será responsable, con respecto al uso del sitio
             theraj.cl, el contenido del mismo, por los daños o perjuicios
             causados por, incluyendo pero no limitado a, fallas en el
             rendimiento, errores, omisiones, interrupciones, defectos, demoras
@@ -261,7 +261,7 @@
             web o su alteración, la del contenido incluido en él, o el uso de
             este sitio web para el incumplimiento de contratos, ejecutar
             conductas dañosas o negligentes o, en general, por cualquier otro
-            motivo. Tha Raj no será responsable por los daños o perjuicios que
+            motivo. The Raj no será responsable por los daños o perjuicios que
             puedan resultar del uso o de la imposibilidad para usar, el
             contenido de este sitio.
           </p>
@@ -272,7 +272,7 @@
             </li>
           </ol>
           <p>
-            Tha Raj podrá cambiar los presentes Términos y Condiciones en
+            The Raj podrá cambiar los presentes Términos y Condiciones en
             cualquier momento conforme a la legislación vigente. Cualquier
             cambio en estos Términos y Condiciones será publicado en el sitio
             theraj.cl.
@@ -331,6 +331,11 @@ export default {
   mounted() {},
 
   methods: {},
+  head() {
+    return {
+      title: 'Terminos y Condiciones',
+    }
+  },
 }
 </script>
 

@@ -331,6 +331,11 @@ export default {
   mounted() {},
 
   methods: {},
+  head() {
+    return {
+      title: 'Políticas de Privacidad',
+    }
+  },
 }
 </script>
 

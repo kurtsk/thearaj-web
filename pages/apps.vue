@@ -112,6 +112,11 @@ export default {
   },
 
   methods: {},
+  head() {
+    return {
+      title: 'Apps',
+    }
+  },
 }
 </script>
 

@@ -173,15 +173,15 @@ export default {
 
   data: () => ({
     image01: 'background-image: url(img/menu-img/01.jpg)',
-    image01Link: 'https://eventos.therajprovidencia.cl',
+    image01Link: '#',
     image02: 'background-image: url(img/menu-img/02.jpg)',
-    image02Link: 'https://eventos.therajprovidencia.cl',
+    image02Link: '#',
     image03: 'background-image: url(img/menu-img/03.jpg)',
     image03Link: '/reservas',
     image04: 'background-image: url(img/menu-img/04.jpg)',
     image04Link: 'https://qr.bistrosuite.io/the-raj',
     image05: 'background-image: url(img/menu-img/05.jpg)',
-    image05Link: '/sociales',
+    image05Link: '#',
     image06: 'background-image: url(img/menu-img/06.jpg)',
     image06Link: '/contacto',
     imageList: [],
