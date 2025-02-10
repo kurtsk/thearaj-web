@@ -32,6 +32,7 @@
           data-aos-duration="2500"
           data-aos-easing="ease-out-cubic"
           data-aos-anchor-placement="bottom-bottom"
+          class="rounded-border k-shadow-04"
         >
           <template v-slot:placeholder>
             <v-row class="fill-height ma-0" align="center" justify="center">

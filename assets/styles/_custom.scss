@@ -614,6 +614,18 @@ div {
   letter-spacing: 0;
 }
 
+.rounded-border {
+  border-radius: 25px;
+}
+.rounded-border-left {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.rounded-border-right {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
 //
 //---------- @MEDIA  -------------
 //

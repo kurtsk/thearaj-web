@@ -17,17 +17,17 @@ export default [
     icon: 'mdi-book-open-variant',
     url: 'https://qr.bistrosuite.io/the-raj',
   },
-  /* {
+  {
     id: 4,
-    name: 'Eventos',
+    name: 'Cátering y Eventos',
     icon: 'cake',
-    url: '/eventos',
-  }, */
+    url: 'https://therajprovidencia.cl/catering-y-eventos/',
+  },
   {
     id: 5,
     name: 'Reservas',
     icon: 'mdi-calendar',
-    url: '/reservas',
+    url: 'https://app.bookingconfirmed.net/book/50/source/2',
   },
   /* {
     id: 6,

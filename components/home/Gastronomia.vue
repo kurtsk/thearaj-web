@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row align="center">
-      <v-col cols="12" md="6" class="k-m-0 k-p-0">
+      <!--      <v-col cols="12" md="6" class="k-m-0 k-p-0">
         <v-row justify="center">
           <v-col cols="12" class="k-p-2">
             <v-img :src="imageUrl" alt="the raj" data-aos="fade-down">
@@ -16,9 +16,58 @@
             </v-img>
           </v-col>
         </v-row>
+      </v-col>-->
+      <v-col cols="12" md="8" class="k-m-0 k-p-0 container-gastronomia">
+        <div class="image-grid">
+          <v-img
+            :src="image1Url"
+            alt="the raj"
+            data-aos="fade-down"
+            class="image rounded-border-left kk-shadow-04"
+          >
+            <template v-slot:placeholder>
+              <v-row class="fill-height ma-0" align="center" justify="center">
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                ></v-progress-circular>
+              </v-row>
+            </template>
+          </v-img>
+          <v-img
+            :src="image2Url"
+            alt="the raj"
+            data-aos="fade-up"
+            class="image kk-shadow-04"
+          >
+            <template v-slot:placeholder>
+              <v-row class="fill-height ma-0" align="center" justify="center">
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                ></v-progress-circular>
+              </v-row>
+            </template>
+          </v-img>
+          <v-img
+            :src="image3Url"
+            alt="the raj"
+            data-aos="fade-down"
+            class="image rounded-border-right kk-shadow-04"
+          >
+            <template v-slot:placeholder>
+              <v-row class="fill-height ma-0" align="center" justify="center">
+                <v-progress-circular
+                  indeterminate
+                  color="grey lighten-5"
+                ></v-progress-circular>
+              </v-row>
+            </template>
+          </v-img>
+        </div>
       </v-col>
 
-      <v-col cols="12" md="6">
+      <v-col cols="12" md="4">
         <div class="k-text-grey-60" data-aos="fade-up" data-aos-duration="1500">
           <h3>Gastronomía de gran complejidad</h3>
         </div>
@@ -75,7 +124,9 @@ export default {
 
   data() {
     return {
-      imageUrl: 'img/home/gastronomia.jpg',
+      image2Url: 'img/gastronomia/gastronomia-img-1.jpg',
+      image3Url: 'img/gastronomia/gastronomia-img-2.jpg',
+      image1Url: 'img/gastronomia/gastronomia-img-3.jpg',
     }
   },
 
@@ -97,4 +148,26 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.container-gastronomia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //height: 100vh;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+  width: 100%;
+  max-width: 1800px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>

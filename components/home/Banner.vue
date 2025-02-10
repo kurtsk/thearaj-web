@@ -57,7 +57,7 @@
           />
         </h1>
         <p
-          class="slider-text-second k-mt-4 k-mb-6"
+          class="slider-text-second k-mt-4 k-mb-6 kk-text-shadow"
           data-aos="fade"
           data-aos-delay="600"
           data-aos-easing="ease-out-cubic"
@@ -174,7 +174,7 @@ export default {
     settings: [],
     redes: [],
     bgUrl: '~/img/bg/castillo-forestal-contacto-bg.jpg',
-    bannerUrl: 'img/slider/the-raj-hero-03-2.jpg',
+    bannerUrl: 'img/slider/the-raj-hero-03-3.jpg',
   }),
   computed: {},
   mounted() {
@@ -185,4 +185,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.kk-text-shadow {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+</style>
